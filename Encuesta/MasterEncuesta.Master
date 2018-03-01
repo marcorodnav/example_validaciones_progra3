@@ -12,6 +12,11 @@
     <form id="form1" runat="server">
     <div>
         Encuesta<br />
+        <asp:Button ID="btnNuevaEncuesta" runat="server" OnClick="btnNuevaEncuesta_Click" style="width: 138px" Text="Nueva encuesta" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnIrAReportes" runat="server" CausesValidation="False" OnClick="btnIrAReportes_Click" Text="Reportes" />
+        <br />
+        <br />
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>

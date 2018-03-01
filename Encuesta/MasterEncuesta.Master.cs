@@ -13,5 +13,15 @@ namespace Encuesta
         {
 
         }
+
+        protected void btnNuevaEncuesta_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("./Paso1.aspx");
+        }
+
+        protected void btnIrAReportes_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("./Reporte.aspx");
+        }
     }
 }
